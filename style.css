@@ -57,7 +57,7 @@ blockquote {
     line-height: 1.2;
     font-style: italic;
     margin-top: 2.5rem;
-    margin-bottom: 2.5em;
+    margin-bottom: 2.5rem;
 }
 
 .has-image {
@@ -73,4 +73,39 @@ blockquote {
     text-decoration: none;
     border-bottom: solid 2px #f05d5d;
     padding-bottom: 1px;
+}
+
+@media (max-width: 720px) {
+    body {
+        padding-top: 0;
+        font-size: 0.9rem;
+    }
+
+    header, 
+    section {
+        padding: 1.25rem;
+    }
+
+    nav {
+        padding: 0.6rem 1.2rem;
+    }
+
+    h2,
+    blockquote {
+        font-size: 1.5rem;
+    }
+
+    blockquote {
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+}
+
+@media (max-width: 500px) {
+    nav a {
+        display: block;
+    }
+    nav a:hover {
+        border: none;
+    }
 }
