@@ -8,8 +8,9 @@ html {
 
 body {
     color: #ffffff;
+    font-family: 'Lora', serif;
     background-image: url(./assets/background.svg);
-    width: 40rem;
+    max-width: 40rem;
     margin: 0 auto;
     padding-top: 2.5rem;
     line-height: 1.5;
@@ -29,6 +30,11 @@ nav a {
     color: #ffffff;
     text-decoration: none;
     margin-right: 1rem;
+}
+
+nav a:hover {
+    color: #5000ff;
+    border-bottom: solid 2px #ffffff;
 }
 
 h2 {
