@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    color: #ffffff;
+    background-image: url(./assets/background.svg);
+    width: 40rem;
+    margin: 0 auto;
+    padding-top: 2.5rem;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 2.5rem;
+}
+
+nav {
+    background-color: #f05d5d;
+    padding: 1.25rem 2.5rem;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+section {
+    background-color: #5000ff;
+    padding: 2.5rem;
+}
+
+section img {
+    width: 100%;
+    max-width: 100%;
+}
